@@ -1,6 +1,7 @@
-export const loadPage = (initPage , number) => {
-    const {element} = initPage (number)
+export const loadPage = (initPage , parameter) => {
+    const {element} = initPage (parameter)
     const rootEl = document.querySelector("#root")
     rootEl.innerHTML = ""
     rootEl.appendChild(element)
 }
+
