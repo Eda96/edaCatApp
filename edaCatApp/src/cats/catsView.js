@@ -14,9 +14,7 @@ export const catsView = () => {
     </div>`;
   const showCats = (data) => {
     const catLists = element.querySelector("#catLists");
-    console.log(data);
     data.forEach((element) => {
-      console.log(element.url);
       const catDiv = document.createElement("div");
       catDiv.innerHTML = `
       <div>
