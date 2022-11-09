@@ -5,8 +5,8 @@ import { loadPage } from '../helpers/loadPage.js'
 
 export const initWelcomePage = () =>{
    const onStartClick  = (e) => {
-   const number = e.target.value
-    loadPage (initCatsPage , number )
+   const parameter = e.target.value
+    loadPage (initCatsPage , parameter )
    } 
    const props = {
     onStartClick
